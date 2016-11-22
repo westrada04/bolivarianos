@@ -23,3 +23,6 @@ Route::resource('/disciplina','DisciplinaController');
 Route::resource('/noticia','NoticiasController');
 Route::resource('/programacion','CompetenciaController');
 Route::post('/comentar','ComentarioController@comentar');
+
+Route::get('/redirect', 'SocialAuthController@redirect');
+Route::get('/callback', 'SocialAuthController@callback');

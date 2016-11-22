@@ -35,4 +35,10 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    'facebook' => [
+        'client_id' => '1035703106550558',
+        'client_secret' => '9b53c1db0de4bc155d90fd107266be3b',
+        'redirect' => 'http://localhost/bolivarianos/public/callback',
+    ],
+
 ];

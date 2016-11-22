@@ -53,7 +53,7 @@
                                 <button type="submit" class="btn btn-primary">
                                     <i class="fa fa-btn fa-sign-in"></i> Iniciar Sesion
                                 </button>
-
+                                <a href="redirect">FB Login</a>
                                 <a class="btn btn-link" href="{{ url('/password/reset') }}">Recordar Contraseña?</a>
                             </div>
                         </div>
